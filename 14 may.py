@@ -10,6 +10,8 @@ while n:
     if r<mi:
         mi=r
 print(mi,ma)
+
+
 #number of max and min terms
 n=int(input("Enter Number: "))
 mi=9
@@ -20,10 +22,10 @@ while n:
     n=n//10
     if r>ma:
         ma=r
-    elif r==ma:
+    else r==ma:
         c+=1
     if r<mi:
         mi=r
-    elif r==mi:
+    else r==mi:
         d+=1
 print(mi,ma,c,d)
