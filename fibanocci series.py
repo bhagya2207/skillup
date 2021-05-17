@@ -1,5 +1,5 @@
 #fibanocci series
-"""def gen_fib(n,a=0,b=1):
+def gen_fib(n,a=0,b=1):
     if n==0:
         return
     if n==1:
@@ -12,7 +12,9 @@
         a=b
         b=c
 n=int(input())
-gen_fib(n)"""
+gen_fib(n)
+
+
 #fibanocci series with in limits
 def gen_fib(n,m,a=0,b=1):
     if n==0:
