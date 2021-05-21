@@ -22,4 +22,37 @@ def fib(a,b,d,n):
     fib(b,a+b,d+1,n)
 n=int(input())
 fib(0,1,1,n)
+
+#armstrong number
+def arm(num):
+    n=num
+    s=0
+    while n>0:
+        r=n%10
+        s+=(r*r*r)
+        n=n//10
+    if n==s:
+        print("armstrong")
+    else:
+        print("armstrong")
+
+num=int(input("enter a number"))
+arm(num)
+
+#perfect number
+def per(num):
+    n=num
+    s=0
+    i=1
+    while i<n:
+        if n%i==0:
+            s=s+i
+        i=i+1
+    if n==s:
+        print("perfect number")
+    else:
+        print("not a perfect number")
+
+num=int(input("enter a number"))
+per(num)
        
