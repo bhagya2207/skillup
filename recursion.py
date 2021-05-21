@@ -1,5 +1,5 @@
 #recursion method
-"""def mul(a,b):
+def mul(a,b):
     if a==1:
         return b
     if a%2:
@@ -7,8 +7,8 @@
     else:
         return 0+mul(a//2,b*2)
 a,b=map(int,input().split())
-print(mul(a,b))"""
-#
+print(mul(a,b))
+#recursion in fib
 def fib(a,b,d,n):
     if d>n:
         return
