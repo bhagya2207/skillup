@@ -1,5 +1,5 @@
 #LCM of number
-"""def lcm(a,b):
+def lcm(a,b):
     t=2
     res=1
     while True:
@@ -10,12 +10,12 @@
         else:
             t+=1
         if a<t or b<t:
-            return res*a*b
-        
+            return res*a*b   
 a,b=map(int,input().split())
-print(lcm(a,b))"""
+print(lcm(a,b))
+
 #LCM using recursion
-"""def lcm(a,b,t):
+def lcm(a,b,t):
     if a<t or b<t:
         return a*b
     if a%t==0 and b%t==0:
@@ -24,9 +24,10 @@ print(lcm(a,b))"""
         return lcm(a,b,t+1)
     
 a,b=map(int,input().split())
-print(lcm(a,b,2))"""
+print(lcm(a,b,2))
+
 #LCM with maximum number method
-"""def lcm(a,b):
+def lcm(a,b):
     m=max(a,b)
     while True:
         if m%b==0 and m%a==0:
@@ -34,9 +35,10 @@ print(lcm(a,b,2))"""
         else:
             m+=1
 a,b=map(int,input().split())
-print(lcm(a,b))"""
+print(lcm(a,b))
+
 #GCD of numbers
-"""def gcd(a,b):
+def gcd(a,b):
     while True:
         if a>b:
             a,b=b,a
@@ -45,12 +47,14 @@ print(lcm(a,b))"""
             return a
   
 a,b=map(int,input().split())
-print(gcd(a,b))"""
+print(gcd(a,b))
+
 #factors of number
-"""n=int(input())
+n=int(input())
 for i in range(1,n+1):
     if n%i==0:
-        print(i)"""
+        print(i)
+        
 #count of factors of numbers
 from math import*
 n=int(input())
