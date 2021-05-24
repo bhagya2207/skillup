@@ -9,6 +9,7 @@ if f==1:
     print("Pronic Number")
 else:
     print("Not Pronic Number")
+    
 #disurium number
 def dis(n):
     count=0
@@ -27,10 +28,10 @@ def dis(n):
         if a==temp:
             print("Disurium")
         else:
-            print("Not Disurium")
-    
+            print("Not Disurium")   
 n=int(input())
 print(dis(n))
+
 #harshad number
 n=int(input())
 sum=0
