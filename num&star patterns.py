@@ -1,35 +1,40 @@
 #pattern 1
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(i,end=" ")
-    print()"""
+    print()
+    
 #pattern 2
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n,0,-1):
     for j in range(i):
         print(i,end=" ")
-    print()"""
+    print()
+    
 #pattern 3
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(j,end=" ")
-    print()"""
+    print()
+    
 #pattern 4
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n,0,-1):
     for j in range(i,0,-1):
         print(j,end=" ")
-    print()"""
+    print()
+    
 #pattern 5
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n,0,-1):
     for j in range(1,i+1):
         print(j,end=" ")
-    print()"""
+    print()
+    
 #pattern 6
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n,0,-1):
     if i%2==0:
         for j in range(i,0,-1):
@@ -37,81 +42,91 @@ for i in range(n,0,-1):
     else:
         for j in range(1,i+1):
             print(j,end=" ")
-    print()"""
+    print()
+    
 #pattern 7
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
      for j in range(1,i+1):
             if j%2==0:
                print(0,end=" ")
             else:
                 print(1,end=" ")
-     print()"""
+     print()
+    
 #pattern 8
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
      for j in range(1,i+1):
             if j==1:
                print(i,end=" ")
             else:
                 print(j,end=" ")
-     print()"""
+     print()
+    
 #right 1
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n):
      for j in range(i):
             print(" ",end=" ")
      for j in range(n-i):
          print("*",end=" ")
-     print()"""
+     print()
+    
 #right 2
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n):
      for j in range(i):
             print(" ",end=" ")
      for j in range(n-i):
          print(n-i,end=" ")
-     print()"""
+     print()
+    
 #right 3
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n):
      for j in range(i):
             print(" ",end=" ")
      for j in range(n-i):
          print(n-j,end=" ")
-     print()"""
+     print()
+    
 #right 4
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n+1):
      for j in range(i):
             print(" ",end=" ")
      for j in range(n-i,0,-1):
          print(n-i,end=" ")
-     print()"""
+     print()
+    
 #right 5
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(n+1):
      for j in range(i):
             print(" ",end=" ")
      for j in range(n-i,0,-1):
          print(n-j,end=" ")
-     print()"""
+     print()
+    
 #right 6
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
     for j in range(1,n-i+1):
         print(" ",end=" ")
     for j in range(1,2*i):
             print("*",end=" ")
-    print()"""
+    print()
+    
 #right 7
-"""n=int(input("Enter Number: "))
+n=int(input("Enter Number: "))
 for i in range(1,n+1):
     for j in range(1,n-i+1):
         print(" ",end=" ")
     for j in range(1,2*i):
             print(j,end=" ")
-    print()"""
+    print()
+    
 #right 8
 n=int(input("Enter Number: "))
 for i in range(1,n+1):
