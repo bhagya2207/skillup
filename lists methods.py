@@ -1,33 +1,38 @@
 #data is in different lines
-"""n=int(input())
+n=int(input())
 data=[None for i in range(n)]
 for i in range(n):
     val=int(input())
     data[i]=val
-print(data)"""
+print(data)
+
 #simple method
-"""n=int(input())
+n=int(input())
 data=list(map(int,input().split()))
-print(data)"""
+print(data)
+
 #index based
-"""n=int(input())
+n=int(input())
 data=list(map(int,input().split()))
 for i in range(n):
-    print(i,data[i])"""
+    print(i,data[i])
+    
 #value based
-"""n=int(input())
+n=int(input())
 data=list(map(int,input().split()))
 for i in data:
-    print(i,end=" ")"""
+    print(i,end=" ")
+    
 #sum of list of elements
-"""n=int(input())
+n=int(input())
 data=list(map(int,input().split()))
 res=0
 for i in range(n):
     res=res+data[i]
-print(res)"""
+print(res)
+
 #sum using functions
-"""def total_marks(n,data):
+def total_marks(n,data):
     res=0
     for i in data:
         res+=i
@@ -35,7 +40,8 @@ print(res)"""
 n=int(input())
 data=list(map(int,input().split()))
 total=total_marks(n,data)
-print (total)"""
+print (total)
+
 #number of even and odd
 def even_odd(n,data):
     ec=0
