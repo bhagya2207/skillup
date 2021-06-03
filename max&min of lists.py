@@ -1,5 +1,5 @@
 #min and max numbers
-"""def min_max(n,data):
+def min_max(n,data):
     for i in range (n):
         data.append(n)
         ma=data[0]
@@ -14,7 +14,7 @@
 n=int(input())
 data=list(map(int,input().split()))
 mi,ma=min_max(n,data)
-print (mi,ma)"""
+print (mi,ma)
 
 #min value,positions,no of times
 def findmin(n,data):
