@@ -47,3 +47,18 @@ list2.insert(1,2)
 list2.extend([6,7,8,9])
 print(list2.count())
 print(list2)
+#break
+i=1
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i+=1
+#continue
+i=1
+while i<6:
+    print(i)
+    if i==3:
+        continue
+    i+=1
+
