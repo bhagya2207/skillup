@@ -45,4 +45,5 @@ print(list2)
 list2=[1,3,4,5]
 list2.insert(1,2)
 list2.extend([6,7,8,9])
+print(list2.count())
 print(list2)
