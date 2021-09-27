@@ -24,6 +24,7 @@ q="Sri"
 r="Valle is good"
 s=22
 print(p.format(s))
+
 #DAY 2
 a=[5,10,15,20,25,30,35,40]
 print(a[2])
