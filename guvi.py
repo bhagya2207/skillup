@@ -61,4 +61,26 @@ while i<6:
     if i==3:
         continue
     i+=1
+#DAY 3
+#
+def greet (name):
+    print("Hello, "+name+",Good Morning!")
+greet('Bhagya')
+#absolute
+def absolute_value(num):
+    if num>0:
+        return num
+    else:
+        return -num
+print (absolute_value(2))
+print (absolute_value(-4))
+#func
+x="global"
+def foo():
+    global x
+    y="local"
+    x=x*2
+    print(x)
+    print(y)
+foo()
 
